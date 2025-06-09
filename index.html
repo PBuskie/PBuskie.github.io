@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jo Smith Photography</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/mbt4tna.css">
+  <link rel="stylesheet" href="https://use.typekit.net/kid2tin.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Secular+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/cccb9207c3.js" crossorigin="anonymous"></script>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      // adds smooth scrolling to links
+      $("a").on('click', function(event) {
+        if (this.hash !=="") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        } 
+      });
+    });
+
+    // Gallery
+    $(document).ready(function(){
+      $('.thumbnail').click(function(){
+        const newSrc = $(this).attr('src');
+        $('#featured').attr('src', newSrc);
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <div class="header">
+    <img class="logo" src="/media/images/wedding/Component1.svg" alt="Jo Smith Logo">
+    <nav>
+      <ul>
+        <li><a href="#gallery">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="dundeePhotography">
+      <div id="dundee">
+        <img src="/media/images/wedding/dundeeScot.svg" alt="">
+      </div>
+      <div id="wedding">
+        <img src="/media/images/wedding/wedding.svg" alt="">
+      </div>
+      <div id="photographer">
+        <img src="/media/images/wedding/photographer.svg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- CUSTOMER FEEDBACK -->
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="galleryTitle">
+    <h2 class="sectionTitle">PORTFOLIO</h2>
+  </div>
+  
+  <!-- New container for the heading text -->
+  <div class="galleryDescription">
+    <h3>I aim to capture all of your laughter, emotional and outrageous moments. Check out my work to see if I'm for you!</h3>
+  </div>
+
+  <!-- Gallery container with images -->
+  <div class="galleryContainer">
+    <div class="mainImage">
+      <img id="featured" src="/media/images/wedding/wedding17.jpg" alt="Featured wedding photo">
+    </div>
+    <div class="thumbnailContainer">
+      <img class="thumbnail" src="/media/images/wedding/wedding12.jpg" alt="Wedding photo 1">
+      <img class="thumbnail" src="/media/images/wedding/wedding19.jpg" alt="Wedding photo 2">
+      <img class="thumbnail" src="/media/images/wedding/wedding18.jpg" alt="Wedding photo 3">
+      <img class="thumbnail" src="/media/images/wedding/wedding10.jpg" alt="Wedding photo 4">
+      <img class="thumbnail" src="/media/images/wedding/wedding20.jpg" alt="Wedding photo 5">
+      <img class="thumbnail" src="/media/images/wedding/wedding21.jpg" alt="Wedding photo 6">
+      <img class="thumbnail" src="/media/images/wedding/wedding22.jpg" alt="Wedding photo 7">
+      <img class="thumbnail" src="/media/images/wedding/wedding13.jpg" alt="Wedding photo 8">
+      <img class="thumbnail" src="/media/images/wedding/wedding14.jpg" alt="Wedding photo 9">
+      <img class="thumbnail" src="/media/images/wedding/wedding15.jpg" alt="Wedding photo 10">
+      <img class="thumbnail" src="/media/images/wedding/wedding16.jpg" alt="Wedding photo 11">
+      <img class="thumbnail" src="/media/images/wedding/wedding1.jpg" alt="Wedding photo 12">
+      <img class="thumbnail" src="/media/images/wedding/wedding5.jpg" alt="Wedding photo 13">
+      <img class="thumbnail" src="/media/images/wedding/wedding7.jpg" alt="Wedding photo 14">
+    </div>
+  </div>
+  
+  <div class="galleryWave">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F6E6CB" fill-opacity="1" d="M0,64L80,101.3C160,139,320,213,480,250.7C640,288,800,288,960,277.3C1120,267,1280,245,1360,234.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+  </div>
+</section>
+
+  <section class="custReview">
+    <div id="custReviewText">
+  </section>
+
+  <section id="services">
+    <h2 class="sectionTitle">SERVICES</h2>
+    <!-- SERVICES CARDS -->
+    <!-- ONE -->
+    <div class="cardContainer">
+      <div class="minip">
+        <div class="mg">
+          <div class="clr"></div>
+          <div class="group"></div>
+        </div>
+        <div class="av" style="background-image:url('/media/images/wedding/wedding4.jpg');"></div>
+        <div class="info">
+          <name>Full Day</name>
+          <deets>Full Day Coverage. <br> Fully edited images. Online Gallery.</deets>
+        </div>
+        <a href="#" class="plot">£200</a>
+      </div>
+      <!-- TWO -->
+      <div class="minip">
+        <div class="mg">
+          <div class="clr"></div>
+          <div class="group">
+            <deets></deets>
+          </div>
+        </div>
+        <div class="av" style="background-image:url('/media/images/wedding/wedding6.jpg');"></div>
+        <div class="info">
+          <name>Full Day & Extras</name>
+          <deets>All previous offerings. Second photographer. Printed album books.</deets>
+        </div>
+        <a href="#" class="plot">£400</a>
+      </div>
+      <!-- THREE -->
+      <div class="minip">
+        <div class="mg">
+          <div class="clr"></div>
+          <div class="group">
+            <deets></deets>
+          </div>
+        </div>
+        <div class="av" style="background-image:url('/media/images/wedding/wedding8.jpg');"></div>
+        <div class="info">
+          <name>Deluxe Package</name>
+          <deets>All previous offerings. Drone footage of wedding. Special message recordings by family members.</deets>
+        </div>
+        <a href="#" class="plot">£550</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 class="sectionTitle">CONTACT</h2>
+    <div class="contactContainer">
+
+      <div class="joSmith">
+        <img src="/media/images/wedding/jo.jpg" alt="Portrait of Jo Smith">
+      </div>
+
+      
+      <div class="contactContent">
+        <div class="contactDetails">
+          <h3>Let's talk!</h3>
+          <p>If you like the look of my work, why not get in touch using my contact form? I aim to respond within 48 hours. If you don't hear back, please feel free to reach out via social media below.</p>
+        </div>
+
+        <div class="contactForm">
+          <label for="names">Your Names</label>
+          <input type="text" id="names" name="names" required>
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+          <label for="venue">Venue/Location</label>
+          <input type="text" id="venue" name="venue" placeholder="Enter the venue or location" required>
+
+          <label for="message">Tell me a little something about your plans!</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="submitButton">Send Message</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8815.858543443415!2d-2.9816141130594707!3d56.468370273718065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48865ce83f54c837%3A0x4f3338023c5ae869!2sHilltown%2C%20Dundee%20DD3%207DR!5e0!3m2!1sen!2suk!4v1730902115003!5m2!1sen!2suk" 
+        width="100%" height="350" scrolling="no" style="border:0;" allowfullscreen="1" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <!-- SCROLL TO TOP -->
+
+  <footer>
+    <div class="footerContent">
+      <img class="logo" src="/media/images/wedding/Component1.svg" alt="Jo Smith Logo">
+      <p>Copyright © 2023 Jo Smith Photography</p>
+    </div>
+    <div class="socialMedia">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+    </div>
+</footer>
+  
+</body>
+</html>
+
+<!-- CHANGES -->
+ <!-- Scroll to Top button -->
+  <!-- Fix sticky navbar -->
+   <!-- Underline navbar depending on which page has been scrolled to -->
+    <!-- Add gallery transitions? -->
+     <!-- ATTEMPT to implement sccrolling gallery -->
+      <!-- Change where service cards link to -->
