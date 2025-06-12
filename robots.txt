@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /media/images/landscape/Thumbs.db
+Disallow: /media/images/wedding/Thumbs.db
+Allow: /
+
+Sitemap: https://pbuskie.github.io/sitemap.xml

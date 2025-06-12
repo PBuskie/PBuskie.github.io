@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jo Smith Photography</title>
+  <meta title="Jo Smith Photography - Dundee Wedding Photographer">
+  <meta name="description" content="Jo Smith is a wedding photographer based in Dundee, Scotland. Specialising in capturing the unique moments of your special day.">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://use.typekit.net/mbt4tna.css">
   <link rel="stylesheet" href="https://use.typekit.net/kid2tin.css">
@@ -43,9 +45,12 @@
 </head>
 <body>
 
+
   <div class="header">
     <img class="logo" src="/media/images/wedding/Component1.svg" alt="Jo Smith Logo">
-    <nav>
+    <!-- visually hidden h1 class for SEO -->
+    <h1 class="visually-hidden">Jo Smith Wedding Photography</h1>
+    <nav role="navigation" aria-label="Main Navigation">
       <ul>
         <li><a href="#gallery">Portfolio</a></li>
         <li><a href="#services">Services</a></li>
@@ -54,19 +59,19 @@
     </nav>
     <div class="dundeePhotography">
       <div id="dundee">
-        <img src="/media/images/wedding/dundeeScot.svg" alt="">
+        <img src="/media/images/wedding/dundeeScot.svg" alt="Dundee">
       </div>
       <div id="wedding">
-        <img src="/media/images/wedding/wedding.svg" alt="">
+        <img src="/media/images/wedding/wedding.svg" alt="Wedding">
       </div>
       <div id="photographer">
-        <img src="/media/images/wedding/photographer.svg" alt="">
+        <img src="/media/images/wedding/photographer.svg" alt="Photographer">
       </div>
     </div>
   </div>
+</header>
 
-  <!-- CUSTOMER FEEDBACK -->
-
+<main>
 <!-- GALLERY -->
 <section id="gallery">
   <div class="galleryTitle">
@@ -84,20 +89,20 @@
       <img id="featured" src="/media/images/wedding/wedding17.jpg" alt="Featured wedding photo">
     </div>
     <div class="thumbnailContainer">
-      <img class="thumbnail" src="/media/images/wedding/wedding12.jpg" alt="Wedding photo 1">
-      <img class="thumbnail" src="/media/images/wedding/wedding19.jpg" alt="Wedding photo 2">
-      <img class="thumbnail" src="/media/images/wedding/wedding18.jpg" alt="Wedding photo 3">
-      <img class="thumbnail" src="/media/images/wedding/wedding10.jpg" alt="Wedding photo 4">
-      <img class="thumbnail" src="/media/images/wedding/wedding20.jpg" alt="Wedding photo 5">
-      <img class="thumbnail" src="/media/images/wedding/wedding21.jpg" alt="Wedding photo 6">
-      <img class="thumbnail" src="/media/images/wedding/wedding22.jpg" alt="Wedding photo 7">
-      <img class="thumbnail" src="/media/images/wedding/wedding13.jpg" alt="Wedding photo 8">
-      <img class="thumbnail" src="/media/images/wedding/wedding14.jpg" alt="Wedding photo 9">
-      <img class="thumbnail" src="/media/images/wedding/wedding15.jpg" alt="Wedding photo 10">
-      <img class="thumbnail" src="/media/images/wedding/wedding16.jpg" alt="Wedding photo 11">
-      <img class="thumbnail" src="/media/images/wedding/wedding1.jpg" alt="Wedding photo 12">
-      <img class="thumbnail" src="/media/images/wedding/wedding5.jpg" alt="Wedding photo 13">
-      <img class="thumbnail" src="/media/images/wedding/wedding7.jpg" alt="Wedding photo 14">
+      <img class="thumbnail" src="/media/images/wedding/wedding12.jpg" alt="Wedding photo 1" loading="lazy">
+      <img class="thumbnail" src="/media/images/wedding/wedding19.jpg" alt="Wedding photo 2" loading="lazy">
+      <img class="thumbnail" src="/media/images/wedding/wedding18.jpg" alt="Wedding photo 3" loading="lazy">
+      <img class="thumbnail" src="/media/images/wedding/wedding10.jpg" alt="Wedding photo 4" loading="lazy">
+      <img class="thumbnail" src="/media/images/wedding/wedding20.jpg" alt="Wedding photo 5" loading="lazy">
+      <img class="thumbnail" src="/media/images/wedding/wedding21.jpg" alt="Wedding photo 6" loading="lazy">
+      <img class="thumbnail" src="/media/images/wedding/wedding22.jpg" alt="Wedding photo 7" loading="lazy">
+      <img class="thumbnail" src="/media/images/wedding/wedding13.jpg" alt="Wedding photo 8" loading="lazy">
+      <img class="thumbnail" src="/media/images/wedding/wedding14.jpg" alt="Wedding photo 9" loading="lazy">
+      <img class="thumbnail" src="/media/images/wedding/wedding15.jpg" alt="Wedding photo 10" loading="lazy">
+      <img class="thumbnail" src="/media/images/wedding/wedding16.jpg" alt="Wedding photo 11"loading="lazy">
+      <img class="thumbnail" src="/media/images/wedding/wedding1.jpg" alt="Wedding photo 12"loading="lazy">
+      <img class="thumbnail" src="/media/images/wedding/wedding5.jpg" alt="Wedding photo 13"loading="lazy">
+      <img class="thumbnail" src="/media/images/wedding/wedding7.jpg" alt="Wedding photo 14"loading="lazy">
     </div>
   </div>
   
@@ -112,6 +117,7 @@
 
   <section id="services">
     <h2 class="sectionTitle">SERVICES</h2>
+    <h3>I offer full-day wedding photography packages, engagement sessions, and custom shoots across Dundee and Scotland. Each shoot is tailored to your unique story.</h3>
     <!-- SERVICES CARDS -->
     <!-- ONE -->
     <div class="cardContainer">
@@ -203,7 +209,7 @@
     </div>
   </section>
 
-  <!-- SCROLL TO TOP -->
+  </main>
 
   <footer>
     <div class="footerContent">
@@ -211,9 +217,9 @@
       <p>Copyright © 2023 Jo Smith Photography</p>
     </div>
     <div class="socialMedia">
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-facebook" loading="lazy"></i>
+      <i class="fa-brands fa-instagram" loading="lazy"></i>
+      <i class="fa-brands fa-x-twitter" loading="lazy"></i>
     </div>
 </footer>
   
